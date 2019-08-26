@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Info da creche Obepip</title>
+	<link rel="stylesheet" href="Obepip.css">	
+	<meta charset="utf-8">
+</head>
+<body>
+<main>
+		<h2>Contato</h2>
+
+		<details>
+			<summary>
+				Ver endereço completo
+			</summary>
+			<p>Rua XYZ, nº 123. Bairro Centro, Chapecó-SC</p>
+		</details>
+
+		<form action="" method="get">
+			<div>
+				<label for="nome" class="rotulo">Nome completo da creche :</label>
+				<input type="text" name="nome" id="nome" size="50" maxlength="50" autofocus required>
+			</div>
+			<div>
+				<label for="fone" class="rotulo">Telefone:</label>
+				<input type="tel" name="fone" id="fone">
+			</div>
+			<div>
+				<label for="email" class="rotulo">E-mail:</label>
+				<input type="email" name="email" id="email" size="50" maxlength="50" autocomplete="off">	
+			</div>
+			<div>
+				<label for="funcionarios" class="rotulo">quantidade de funcionários:</label>
+				<input type=" quantidade funcionarios" name="quantidade funcionarios" id="quantidade funcionarios" size="50" maxlength="50" autocomplete="off">	
+			</div>		
+			<div>
+				<label for="funcionarios" class="rotulo">quantidade de crianças por sala:</label>
+				<input type=" quantidade crianças" name="quantidade crianças" id="quantidade crianças" size="50" maxlength="50" autocomplete="off">	
+			</div>
+			<fieldset>
+				<legend>Perfil:</legend>
+				<label><input type="radio" name="perfil" value="e">Estudante</label><br>
+				<label><input type="radio" name="perfil" value="p" checked>Profissional de TI</label><br>
+				<label><input type="radio" name="perfil" value="o">Outros</label><br>
+			</fieldset>
+			<div>
+				<label>Assunto:
+				<select name="assunto">
+					<option value="0">Selecione</option>
+					<option value="1">Orçamento</option>
+					<option value="2">Dúvidas</option>
+					<option value="3">Críticas</option>
+					<option value="4" selected>Sugestões</option>
+				</select>
+				</label>
+			</div>
+			<fieldset>
+				<legend>Horário preferencial para contato:</legend>
+				<label><input type="checkbox" name="contatoM">Manhã</label>
+				<label><input type="checkbox" name="contatoT">Tarde</label>
+				
+			</fieldset>
+			<div>
+				<label for="msg">Mensagem:</label><br>
+				<textarea name="msg" id="msg" rows="10" cols="40" placeholder="Escreva sua mensagem"></textarea>
+			</div>
+			<div>
+				<input type="submit" name="botao" value="Confirmar">
+				<input type="reset" name="reset" value="Limpar campos">
+			</div>
+			<p>Encontre-nos no mapa:</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14205.031274274012!2d-52.70815435!3d-27.1166883!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1554160178843!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0" allowfullscreen></iframe>
+		</form>
+		
+	</main>
+
+
+</body>
+</html>

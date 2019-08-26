@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Obepip.css">
+	<title>saúde da criança</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+
+
+<main>
+		<h2>saúde da criança</h2>
+
+
+		<form action="" method="get">
+			<div>
+				<label for="nome" class="rotulo">tipo sanguíneo :</label>
+				<input type="text" name="nome" id="nome" size="50" maxlength="50" autofocus required>
+			</div>
+			<div>
+				<label for="nome" class="rotulo">medicamento que pode tomar:</label>
+				<input type="text" name="nome" id="name">
+			</div>
+			<div>
+				<label for="nome" class="rotulo">vacinação ja tomou:</label>
+				<input type="text" name="name" id="nome" size="50" maxlength="50" autocomplete="off">	
+			</div>
+						
+			<fieldset>
+				<legend>Perfil:</legend>
+				<label><input type="radio" name="perfil" value="e">alergia a medicamento</label><br>
+				<label><input type="radio" name="perfil" value="p" checked>doencaças contantagiosas ja teve</label><br>
+				<label><input type="radio" name="perfil" value="p" checked>não tem alergia com ninhum medicamento</label><br>
+				<label><input type="radio" name="perfil" value="o">nunca teve ninhuma doença contagiosas, nem alergia </label><br>
+			</fieldset>
+			<div>
+				<label>Assunto:
+				<select name="assunto">
+					<option value="0">Selecione</option>
+					<option value="1">Orçamento</option>
+					<option value="2">Dúvidas</option>
+					<option value="3">Críticas</option>
+					<option value="4" selected>Sugestões</option>
+				</select>
+				</label>
+			</div>
+			
+			<div>
+				<label for="msg">caso teve explica qual:</label><br>
+				<textarea name="msg" id="msg" rows="10" cols="40" placeholder="Escreva sua mensagem"></textarea>
+			</div>
+			<div>
+				<input type="submit" name="botao" value="Confirmar">
+				<input type="reset" name="reset" value="Limpar campos">
+			</div>
+			
+		</form>
+		
+	</main>
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+
+body {
+        font-family: arial, sans-serif, monospace;
+        margin: 0;
+        font-size: 1.2em;
+        color: blue;
+}
+header, footer {
+        background-color: #2B4970;
+}
+nav {
+        background-color: #AA9239;
+}
+main {
+        background-color:green;/* #EEEEEE;*/
+}
+header, footer, nav, main {
+        padding: 10px;
+}
+
+.rotulo{
+	color: red;
+}
+input{
+	border: 2px solid red;width:200px;
+}
+textarea{
+	border: 5px solid red;
+}
+select{
+	border: 2px solid red;
+}
+text{
+	color: black;
+}

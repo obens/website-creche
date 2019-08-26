@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Obepip.css">
+	<title> cadastro do aluno </title>
+		<meta charset="utf-8">
+</head>
+<body>
+<main>
+		<h2>student's registre</h2>
+
+		<details>
+			<summary>
+				Ver endereço completo do professor
+			</summary>
+			<p>Rua XYZ, nº 123. Bairro Centro, Chapecó-SC</p>
+		</details>
+
+		<details>
+			<summary>
+				Ver endereço completo do pai
+			</summary>
+			<p>Rua XYZ, nº 123. Bairro Centro, Chapecó-SC</p>
+		</details>
+		<details>
+			<summary>
+				Ver endereço completo da mãe
+			</summary>
+			<p>Rua XYZ, nº 123. Bairro Centro, Chapecó-SC</p>
+		</details>
+		<details>
+			<summary>
+				Ver endereço completo do responsavel
+			</summary>
+			<p>Rua XYZ, nº 123. Bairro Centro, Chapecó-SC</p>
+		</details>
+
+
+
+
+		<form action="" method="get">
+			<div>
+				<label for="nome" class="rotulo">Nome completo do aluno(a):</label>
+				<input type="text" name="nome" id="nome" size="50" maxlength="50" autofocus required>
+			</div>
+			<div>
+				<label for="fone" class="rotulo">Telefone:</label>
+				<input type="tel" name="fone" id="fone">
+			</div>
+			<div>
+				<label for="fone" class="rotulo">Telefone do trabalho:</label>
+				<input type="tel" name="fone" id="fone">
+			</div>
+			<div>
+				<label for="email" class="rotulo">E-mail do responsável:</label>
+				<input type="email" name="email" id="email" size="50" maxlength="50" autocomplete="off">	
+			</div>
+			<div>
+				<label for="CPF" class="rotulo"> CPF do aluno:</label>
+				<input type=" CPF" name="cpf" id="CPF do aluno" size="50" maxlength="50" autocomplete="off">	
+			</div>
+			<div>
+				<label for="idade" class="rotulo"> data de nascimento</label>
+				<input type=" data de nascimento do aluno" name="data de nascimento" id="CPF do aluno" size="50" maxlength="50" autocomplete="off">	
+			</div>
+			<div>
+				<label for="name" class="rotulo">nome dos pais ou responsáveis </label>
+				<input type="nome dos pais ou responsaveis do aluno" name="nome dos pais ou responsaveis" id="pais ou responsaveis do aluno" size="50" maxlength="50" autocomplete="off">	
+			</div>
+			<div>
+				<label for="data" class="rotulo"> data de nascimento</label>
+				<input type=" data de nascimento do aluno" name="data de nascimento" id="CPF do aluno" size="50" maxlength="50" autocomplete="off">	
+			</div>
+			<div>
+				<label for="CPF" class="rotulo"> CPF da mãe:</label>
+				<input type=" CPF" name="cpf" id="CPF da mãe" size="50" maxlength="50" autocomplete="off">	
+			</div>
+			<div>
+				<label for="CPF" class="rotulo"> CPF do pai:</label>
+				<input type=" CPF" name="cpf" id="CPF do pai" size="50" maxlength="50" autocomplete="off">	
+			</div>
+			<div>
+				<label for="CPF" class="rotulo"> CPF do responsável</label>
+				<input type=" CPF" name="cpf" id="CPF do responsável" size="50" maxlength="50" autocomplete="off">	
+			</div>
+			<div>
+				<label for="identidade" class="rotulo">do pai:</label>
+				<input type=" identidade" name="identidade do pai" id="identidade" size="50" maxlength="50" autocomplete="off">	
+			</div>
+			<div>
+				<label for="identidade" class="rotulo">da mãe:</label>
+				<input type=" identidade" name="identidade daa mãe" id="identidade" size="50" maxlength="50" autocomplete="off">	
+			</div>
+			<div>
+				<label for="identidade" class="rotulo">do responsável:</label>
+				<input type=" identidade" name="identidade do responsável" id="identidade" size="50" maxlength="50" autocomplete="off">	
+			</div>	
+			<div>
+				<label for="sala" class="rotulo">sala do professor:</label>
+				<input type=" sala" name="quantidade crianças" id="sala" size="50" maxlength="50" autocomplete="off">	
+			</div>
+			
+			<div>
+				<label>Assunto:
+				<select name="assunto">
+					<option value="0">Selecione</option>
+					<option value="1">Orçamento</option>
+					<option value="2">Dúvidas</option>
+					<option value="3">Críticas</option>
+					<option value="4" selected>Sugestões</option>
+				</select>
+				</label>
+			</div>
+			<fieldset>
+				<legend> seu relacionamento com a criança</legend>
+				<label><input type="checkbox" name="contatoM">Mãe</label>
+				<label><input type="checkbox" name="contatoT">pai</label>
+				<label><input type="checkbox" name="contatoT">responsável</label>
+				
+			</fieldset>
+			<div>
+				<label for="msg">Mensagem:</label><br>
+				<textarea name="msg" id="msg" rows="10" cols="40" placeholder="Escreva sua mensagem"></textarea>
+			</div>
+			<div>
+				<input type="submit" name="botao" value="Confirmar">
+				<input type="reset" name="reset" value="Limpar campos">
+			</div>
+			<p>Encontre-nos no mapa:</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14205.031274274012!2d-52.70815435!3d-27.1166883!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1554160178843!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0" allowfullscreen></iframe>
+		</form>
+		
+	</main>
+
+</body>
+</html>
